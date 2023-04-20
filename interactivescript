@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  
+  <script>
+   function onclick() {
+    document.getElementById("redButton").style.color = "red";
+}
+  </script>
+  
+  <head><title>Interactive Script</title></head>
+  <body>
+    <button id="redButton" onclick="onclick()">Don't push me!</button>
+    </body>
+  </html>
