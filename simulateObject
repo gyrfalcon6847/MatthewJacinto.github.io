@@ -1,2 +1,9 @@
-var yummyCandy = { candyColor: "yellow",  candyFlavor: "lemon", candyPrice: "2$" };
+var yummyCandy = { 
+candyColor: "yellow",  
+candyFlavor: "lemon", 
+candyPrice: "2$" 
+bestCandy: function() {
+  return this.candyFlavor + " is the best flavor!";
+  }
+};
 
